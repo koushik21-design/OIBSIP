@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Authentication</title>
+    <link rel="stylesheet" href="src/styles1.css">
+</head>
+<body>
+    <div class="container">
+        <div id="register-form" class="form active">
+            <h2>Register</h2>
+            <input type="text" id="rfname" placeholder="Enter First Name">
+            <input type="text" id="rlname" placeholder="Enter Last Name">
+            <input type="email" id="rmail" placeholder="Enter Your Mail Id">
+            <input type="text" id="rusername" placeholder="Username to login">
+            <input type="password" id="rpassword" placeholder="Password to login">
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <a href="#" onclick="showLoginForm()">Login here</a></p>
+        </div>
+
+        <div id="login-form" class="form">
+            <h2>Login</h2>
+            <input type="text" id="lusername" placeholder="Username">
+            <input type="password" id="lpassword" placeholder="Password">
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="showRegisterForm()">Register here</a></p>
+        </div>
+
+        <div id="secured-page" class="form">
+            <h2>Welcome, <span id="user-name"></span>!</h2>
+            <div>
+                <h3>Your Details Are:</h3>
+                <p><strong>First Name:</strong> <span id="fname1"></span></p>
+                <p><strong>Last Name:</strong> <span id="lname1"></span></p>
+                <p><strong>Mail Id:</strong> <span id="mailid1"></span></p>
+            </div>
+            <p>This is a secured page.</p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+    <script src="src/script1.js"></script>
+</body>
+</html>
