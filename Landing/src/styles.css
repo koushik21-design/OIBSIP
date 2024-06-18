@@ -39,7 +39,7 @@ body {
 }
 
 .hero {
-    background: url('./public/images/ott.jpg') no-repeat center center/cover;
+    background: url('public/images/ott.jpg') no-repeat center center/cover;
     color: #040606;
     padding: 100px 0;
     text-align: center;
