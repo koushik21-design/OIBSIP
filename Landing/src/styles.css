@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('/public/images/ott.jpg') no-repeat center center/cover;
+    color: #040606;
+    padding: 100px 0;
+    text-align: center;
+}
+  
+.hero{
+    height: 400px;
+}
+img{
+    height: 380px;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.features, .plans, .popular, .signup {
+    padding: 50px 0;
+}
+
+.features h2, .plans h2, .popular h2, .signup h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.feature-item, .plan, .popular-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    margin: 10px 0;
+}
+
+.popular-item {
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.signup form {
+    text-align: center;
+}
+
+.signup input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.signup button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -3,48 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="src/styles2.css">
+    <title>OTT Platform</title>
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <h1>Welcome to AtoZTours&Travels</h1>
-            <p>The Best Holiday Experience
-                <b>Explore The World With Us</b></p>
-            <a href="#features" class="btn">Learn More</a>
+            <h1>StreamFlix</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#signup">Sign Up</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-
-    <section id="features">
+    <section class="hero">
         <div class="container">
-            <h2>Key Features</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>We Provide You Service All over the world. Where you travel with us</p>
+            <h2>Unlimited Movies, TV Shows, and More.</h2>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <h3>Watch on any device</h3>
+                <p>Stream on your phone, tablet, laptop, and TV without paying more.</p>
             </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>We can provide accomadation where you travel</p>
+            <div class="feature-item">
+                <h3>Download and go</h3>
+                <p>Save your favorites easily and always have something to watch.</p>
             </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>We can provide Transport facility and our agent can travel with you</p>
+            <div class="feature-item">
+                <h3>Enjoy without limits</h3>
+                <p>Watch unlimited movies and TV shows with no extra cost.</p>
             </div>
         </div>
     </section>
-
-    <section id="cta">
+    <section id="plans" class="plans">
         <div class="container">
-            <h2>Ready to Get Started?</h2>
-            <p>Sign up now and enjoy our exclusive offers!</p>
-            <a href="#" class="btn">Sign Up</a>
+            <h2>Plans</h2>
+            <div class="plan">
+                <h3>Basic</h3>
+                <p>$8.99/month</p>
+                <p>Stream on 1 device at a time</p>
+            </div>
+            <div class="plan">
+                <h3>Standard</h3>
+                <p>$13.99/month</p>
+                <p>Stream on 2 devices at a time</p>
+            </div>
+            <div class="plan">
+                <h3>Premium</h3>
+                <p>$17.99/month</p>
+                <p>Stream on 4 devices at a time</p>
+            </div>
         </div>
     </section>
-
-    <footer>
+    <section id="popular" class="popular">
         <div class="container">
-            <p>&copy; 2024 AtoZTours&Travels. All rights reserved.</p>
+            <h2>Popular Shows and Movies</h2>
+            <div class="popular-item">Show/Movie 1</div>
+            <div class="popular-item">Show/Movie 2</div>
+            <div class="popular-item">Show/Movie 3</div>
+            <div class="popular-item">Show/Movie 4</div>
+        </div>
+    </section>
+    <section id="signup" class="signup">
+        <div class="container">
+            <h2>Join StreamFlix Today</h2>
+            <p>Enter your email to create or restart your membership.</p>
+            <form>
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 StreamFlix. All rights reserved.</p>
         </div>
     </footer>
 </body>
