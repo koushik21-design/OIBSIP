@@ -23,17 +23,26 @@
                     } else if (conversion.value === 'kelvin') {
                         result += `${temperature}°C is ${temperature + 273.15}K<br>`;
                     }
+                    else if(conversion.value==='celsius'){
+                        result+=`already in celsius <br>`;
+                    }
                 } else if (type === 'fahrenheit') {
                     if (conversion.value === 'celsius') {
                         result += `${temperature}°F is ${(temperature - 32) * 5/9}°C<br>`;
                     } else if (conversion.value === 'kelvin') {
                         result += `${temperature}°F is ${(temperature - 32) * 5/9 + 273.15}K<br>`;
                     }
+                    else if(conversion.value==='fahrenheit'){
+                        result+=`already in fahrenheit <br>`;
+                    }
                 } else if (type === 'kelvin') {
                     if (conversion.value === 'celsius') {
                         result += `${temperature}K is ${temperature - 273.15}°C<br>`;
                     } else if (conversion.value === 'fahrenheit') {
                         result += `${temperature}K is ${(temperature - 273.15) * 9/5 + 32}°F<br>`;
+                    }
+                    else if(conversion.value==='kelvin'){
+                        result+=`already in kelvin <br>`;
                     }
                 }
             });
